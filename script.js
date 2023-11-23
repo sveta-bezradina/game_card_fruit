@@ -54,7 +54,7 @@ btn.onclick = function(){
 function Winner(){
     for (let i = 0; i < 3; i++) {
         if (memory[0][i] === memory[1][i] && memory[1][i] === memory[2][i]) {
-            alert(`Вітаємо, ${nameUser.value}! Ви перемогли в рядку ${i + 1}!`);
+            alert(`Вітаємо! Ви перемогли в рядку ${i + 1}!`);
             Reset();
             return;
     }
