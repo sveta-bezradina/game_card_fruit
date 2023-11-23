@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Slab:wght@300&family=Vina+Sans&display=swap');
+body{
+	width:auto;
+	height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-direction:column;
+    background-color: rgb(21, 110, 32);
+    background-attachment: fixed;
+    background-size: 100%;
+    font-size: 25pt;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.name{
+    width:25%;
+    height:10%;
+    display: flex;
+    justify-content: space-around;
+	align-items:center;
+    margin-bottom: 5px;
+}
+button{
+    width:25%;
+	height:60px;
+    background: linear-gradient(0deg, rgba(229,235,0,1) 0%, rgba(176,168,0,1) 49%, rgba(229,235,0,1) 100%);
+	border-radius: 15px;
+	font-size: 15pt;
+    border:0px;
+    color: rgb(0, 0, 0);
+    box-shadow:  2px 2px 7px rgb(56, 56, 56);
+    margin-bottom: 5px;
+}
+.container{
+    width:auto;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+	align-items:center;
+	flex-direction:row;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-size: 100%;
+}
+#item1, #item2, #item3{
+    width: auto;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+	align-items:center;
+    flex-direction:column;
+    border-radius: 10px;
+    background-size: 100%;
+}
+
+.image{
+    width: 150px;
+    height:150px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border:1px black solid;
+}
